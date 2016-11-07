@@ -2,12 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
 
+const webpack = require('atool-build/lib/webpack');
+const pxtorem = require('postcss-pxtorem');
+
+
 module.exports = function (webpackConfig, env) {
-  webpackConfig.babel.babelrc = false;
-  webpackConfig.resolve = {
-    modulesDirectories: ['node_modules', path.join(__dirname, '../node_modules')],
-    extensions:['','.web.js','.js','.json','.jsx']
-  };
+  webpackConfig.babel.babelrc = true;
+
   webpackConfig.babel.plugins.push('transform-runtime');
 
   webpackConfig.babel.plugins.push(['import', {
@@ -15,21 +16,10 @@ module.exports = function (webpackConfig, env) {
     libraryName: 'antd-mobile',
   }]);
 
-  // Enable hmr for development.
-  if (env === 'development') {
-    webpackConfig.babel.plugins.push(['dva-hmr', {
-      entries: [
-        './src/entry/index.js',
-      ],
-    }]);
-  }
-
-  // Parse all less files as css module.
-  webpackConfig.module.loaders.forEach(function (loader, index) {
-    if (loader.test.toString() === '/\\.module\\.less$/') {
-      loader.test = /\.less$/;
-    }
-  });
+  webpackConfig.postcss.push(pxtorem({
+    rootValue: 100,
+    propWhiteList: [],
+  }));
 
   return webpackConfig;
 };
