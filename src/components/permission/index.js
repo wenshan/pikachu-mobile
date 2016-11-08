@@ -17,7 +17,6 @@ export default function permission(data) {
   if (data && data.accessDeny) {
     const url = data && data.authUrl;
     const urlComp = <AuthUrl url={url} />;
-    notifyFactory('error', '没有权限', urlComp)();
+    notifyFactory('fail', '没有权限')();
   }
 }
-

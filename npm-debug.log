@@ -1,49 +1,1245 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/Users/alibaba/.nvm/versions/node/v6.0.0/bin/node',
-1 verbose cli   '/Users/alibaba/.nvm/versions/node/v6.0.0/bin/npm',
-1 verbose cli   'run',
-1 verbose cli   'build' ]
-2 info using npm@3.10.9
+1 verbose cli   '/Users/alibaba/.nvm/versions/node/v6.0.0/lib/node_modules/tnpm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--cache=/Users/alibaba/.tnpm',
+1 verbose cli   '--node_sqlite3_binary_host_mirror=https://npm.taobao.org/mirrors/',
+1 verbose cli   '--fse_binary_host_mirror=https://npm.taobao.org/mirrors/fsevents/',
+1 verbose cli   '--no-proxy',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--userconfig=/Users/alibaba/.tnpmrc',
+1 verbose cli   '--registry=http://registry.npm.alibaba-inc.com',
+1 verbose cli   'react-native-router-flux',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.6
 3 info using node@v6.0.0
-4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
-5 info lifecycle pikachu-mobile@1.0.0~prebuild: pikachu-mobile@1.0.0
-6 silly lifecycle pikachu-mobile@1.0.0~prebuild: no script for prebuild, continuing
-7 info lifecycle pikachu-mobile@1.0.0~build: pikachu-mobile@1.0.0
-8 verbose lifecycle pikachu-mobile@1.0.0~build: unsafe-perm in lifecycle true
-9 verbose lifecycle pikachu-mobile@1.0.0~build: PATH: /Users/alibaba/.nvm/versions/node/v6.0.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/alibaba/pikachu-mobile/node_modules/.bin:/Users/alibaba/.nvm/versions/node/v6.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin
-10 verbose lifecycle pikachu-mobile@1.0.0~build: CWD: /Users/alibaba/pikachu-mobile
-11 silly lifecycle pikachu-mobile@1.0.0~build: Args: [ '-c',
-11 silly lifecycle   'atool-build -o ./.build/${npm_package_family}/${npm_package_name/{npm_package_version}' ]
-12 silly lifecycle pikachu-mobile@1.0.0~build: Returned: code: 1  signal: null
-13 info lifecycle pikachu-mobile@1.0.0~build: Failed to exec build script
-14 verbose stack Error: pikachu-mobile@1.0.0 build: `atool-build -o ./.build/${npm_package_family}/${npm_package_name/{npm_package_version}`
-14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/Users/alibaba/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
-14 verbose stack     at emitTwo (events.js:106:13)
-14 verbose stack     at EventEmitter.emit (events.js:191:7)
-14 verbose stack     at ChildProcess.<anonymous> (/Users/alibaba/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/utils/spawn.js:40:14)
-14 verbose stack     at emitTwo (events.js:106:13)
-14 verbose stack     at ChildProcess.emit (events.js:191:7)
-14 verbose stack     at maybeClose (internal/child_process.js:850:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
-15 verbose pkgid pikachu-mobile@1.0.0
-16 verbose cwd /Users/alibaba/pikachu-mobile
-17 error Darwin 16.1.0
-18 error argv "/Users/alibaba/.nvm/versions/node/v6.0.0/bin/node" "/Users/alibaba/.nvm/versions/node/v6.0.0/bin/npm" "run" "build"
-19 error node v6.0.0
-20 error npm  v3.10.9
-21 error code ELIFECYCLE
-22 error pikachu-mobile@1.0.0 build: `atool-build -o ./.build/${npm_package_family}/${npm_package_name/{npm_package_version}`
-22 error Exit status 1
-23 error Failed at the pikachu-mobile@1.0.0 build script 'atool-build -o ./.build/${npm_package_family}/${npm_package_name/{npm_package_version}'.
-23 error Make sure you have the latest version of node.js and npm installed.
-23 error If you do, this is most likely a problem with the pikachu-mobile package,
-23 error not with npm itself.
-23 error Tell the author that this fails on your system:
-23 error     atool-build -o ./.build/${npm_package_family}/${npm_package_name/{npm_package_version}
-23 error You can get information on how to open an issue for this project with:
-23 error     npm bugs pikachu-mobile
-23 error Or if that isn't available, you can get their info via:
-23 error     npm owner ls pikachu-mobile
-23 error There is likely additional logging output above.
-24 verbose exit [ 1, true ]
+4 verbose install initial load of /Users/alibaba/pikachu-mobile/package.json
+5 warn package.json pikachu-mobile@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/Base64/package.json
+7 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/JSONStream/package.json
+8 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/abbrev/package.json
+9 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/absolute-path/package.json
+10 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/accepts/package.json
+11 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/acorn/package.json
+12 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/acorn-jsx/package.json
+13 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/add-dom-event-listener/package.json
+14 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ajv/package.json
+15 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ajv-keywords/package.json
+16 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/align-text/package.json
+17 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/alphanum-sort/package.json
+18 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/amdefine/package.json
+19 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ansi/package.json
+20 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ansi-escapes/package.json
+21 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ansi-html/package.json
+22 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ansi-regex/package.json
+23 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ansi-styles/package.json
+24 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/antd-mobile/package.json
+25 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/any-promise/package.json
+26 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/anymatch/package.json
+27 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/archive-type/package.json
+28 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/are-we-there-yet/package.json
+29 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/argparse/package.json
+30 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/arr-diff/package.json
+31 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/arr-flatten/package.json
+32 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/array-differ/package.json
+33 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/array-find-index/package.json
+34 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/array-tree-filter/package.json
+35 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/array-union/package.json
+36 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/array-uniq/package.json
+37 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/array-unique/package.json
+38 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/arrify/package.json
+39 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/art/package.json
+40 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/asap/package.json
+41 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/asn1/package.json
+42 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/assert/package.json
+43 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/assert-plus/package.json
+44 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ast-query/package.json
+45 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ast-types/package.json
+46 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/async/package.json
+47 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/async-each/package.json
+48 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/async-task-mgr/package.json
+49 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/async-validator/package.json
+50 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/asynckit/package.json
+51 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/atool-build/package.json
+52 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/atool-monitor/package.json
+53 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/autobind-decorator/package.json
+54 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/autoprefixer/package.json
+55 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/aws-sign2/package.json
+56 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/aws4/package.json
+57 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-code-frame/package.json
+58 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-core/package.json
+59 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-core-resolve-enhance/package.json
+60 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-eslint/package.json
+61 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-generator/package.json
+62 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-bindify-decorators/package.json
+63 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-builder-binary-assignment-operator-visitor/package.json
+64 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-builder-react-jsx/package.json
+65 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-call-delegate/package.json
+66 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-define-map/package.json
+67 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-explode-assignable-expression/package.json
+68 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-explode-class/package.json
+69 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-function-name/package.json
+70 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-get-function-arity/package.json
+71 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-hoist-variables/package.json
+72 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-optimise-call-expression/package.json
+73 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-regex/package.json
+74 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-remap-async-to-generator/package.json
+75 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helper-replace-supers/package.json
+76 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-helpers/package.json
+77 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-loader/package.json
+78 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-messages/package.json
+79 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-add-module-exports/package.json
+80 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-antd/package.json
+81 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-check-es2015-constants/package.json
+82 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-dva-hmr/package.json
+83 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-external-helpers/package.json
+84 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-import/package.json
+85 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-react-transform/package.json
+86 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-async-functions/package.json
+87 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-async-generators/package.json
+88 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-class-constructor-call/package.json
+89 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-class-properties/package.json
+90 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-decorators/package.json
+91 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-do-expressions/package.json
+92 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-dynamic-import/package.json
+93 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-exponentiation-operator/package.json
+94 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-export-extensions/package.json
+95 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-flow/package.json
+96 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-function-bind/package.json
+97 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-jsx/package.json
+98 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-object-rest-spread/package.json
+99 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-syntax-trailing-function-commas/package.json
+100 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-async-generator-functions/package.json
+101 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-async-to-generator/package.json
+102 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-class-constructor-call/package.json
+103 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-class-properties/package.json
+104 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-decorators/package.json
+105 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-decorators-legacy/package.json
+106 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-do-expressions/package.json
+107 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-arrow-functions/package.json
+108 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-block-scoped-functions/package.json
+109 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-block-scoping/package.json
+110 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-classes/package.json
+111 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-computed-properties/package.json
+112 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-destructuring/package.json
+113 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-duplicate-keys/package.json
+114 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-for-of/package.json
+115 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-function-name/package.json
+116 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-literals/package.json
+117 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-modules-commonjs/package.json
+118 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-object-super/package.json
+119 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-parameters/package.json
+120 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json
+121 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-spread/package.json
+122 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json
+123 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-template-literals/package.json
+124 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-typeof-symbol/package.json
+125 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json
+126 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es3-member-expression-literals/package.json
+127 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-es3-property-literals/package.json
+128 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-exponentiation-operator/package.json
+129 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-export-extensions/package.json
+130 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-flow-strip-types/package.json
+131 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-function-bind/package.json
+132 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-object-assign/package.json
+133 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-object-rest-spread/package.json
+134 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-proto-to-assign/package.json
+135 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-react-display-name/package.json
+136 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-react-jsx/package.json
+137 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-react-jsx-source/package.json
+138 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-regenerator/package.json
+139 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-runtime/package.json
+140 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-plugin-transform-strict-mode/package.json
+141 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-polyfill/package.json
+142 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-preset-es2015-ie/package.json
+143 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-preset-es2015-node/package.json
+144 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-preset-fbjs/package.json
+145 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-preset-react/package.json
+146 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-preset-react-native/package.json
+147 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-preset-stage-0/package.json
+148 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-preset-stage-1/package.json
+149 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-preset-stage-2/package.json
+150 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-preset-stage-3/package.json
+151 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-register/package.json
+152 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-runtime/package.json
+153 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-template/package.json
+154 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-traverse/package.json
+155 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babel-types/package.json
+156 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/babylon/package.json
+157 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/balanced-match/package.json
+158 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/base62/package.json
+159 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/base64-js/package.json
+160 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/base64-url/package.json
+161 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/basic-auth/package.json
+162 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/basic-auth-connect/package.json
+163 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/batch/package.json
+164 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/bcrypt-pbkdf/package.json
+165 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/beeper/package.json
+166 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/big.js/package.json
+167 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/binary-extensions/package.json
+168 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/binary-search-tree/package.json
+169 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/binaryextensions/package.json
+170 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/bl/package.json
+171 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/body-parser/package.json
+172 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/boolbase/package.json
+173 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/boom/package.json
+174 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/bplist-creator/package.json
+175 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/bplist-parser/package.json
+176 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/brace-expansion/package.json
+177 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/braces/package.json
+178 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/browser-resolve/package.json
+179 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/browserify-zlib/package.json
+180 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/browserslist/package.json
+181 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/bser/package.json
+182 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/buffer/package.json
+183 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/buffer-crc32/package.json
+184 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/buffer-shims/package.json
+185 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/buffer-to-vinyl/package.json
+186 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/builtin-modules/package.json
+187 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/bytes/package.json
+188 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/caller-path/package.json
+189 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/callsites/package.json
+190 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/camelcase/package.json
+191 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/camelcase-keys/package.json
+192 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/caniuse-db/package.json
+193 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/capture-stack-trace/package.json
+194 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/caseless/package.json
+195 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/caw/package.json
+196 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/center-align/package.json
+197 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/chalk/package.json
+198 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cheerio/package.json
+199 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/chokidar/package.json
+200 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/circular-json/package.json
+201 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/clap/package.json
+202 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/class-extend/package.json
+203 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/classnames/package.json
+204 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cli-cursor/package.json
+205 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cli-table/package.json
+206 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cli-width/package.json
+207 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cliui/package.json
+208 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/clone/package.json
+209 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/clone-stats/package.json
+210 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/co/package.json
+211 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/coa/package.json
+212 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/code-point-at/package.json
+213 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/color/package.json
+214 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/color-convert/package.json
+215 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/color-name/package.json
+216 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/color-string/package.json
+217 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/colorful/package.json
+218 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/colormin/package.json
+219 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/colors/package.json
+220 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/combined-stream/package.json
+221 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/commander/package.json
+222 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/commondir/package.json
+223 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/commoner/package.json
+224 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/component-classes/package.json
+225 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/component-indexof/package.json
+226 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/composition/package.json
+227 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/compressible/package.json
+228 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/compression/package.json
+229 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/concat-map/package.json
+230 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/concat-stream/package.json
+231 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/connect/package.json
+232 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/connect-history-api-fallback/package.json
+233 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/connect-timeout/package.json
+234 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/console-browserify/package.json
+235 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/constants-browserify/package.json
+236 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/contains-path/package.json
+237 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/content-disposition/package.json
+238 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/content-type/package.json
+239 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/convert-source-map/package.json
+240 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cookie/package.json
+241 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cookie-parser/package.json
+242 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cookie-signature/package.json
+243 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cookies/package.json
+244 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/core-js/package.json
+245 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/core-util-is/package.json
+246 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/crc/package.json
+247 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/create-error-class/package.json
+248 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/crequire/package.json
+249 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cross-spawn/package.json
+250 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cross-spawn-async/package.json
+251 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cryptiles/package.json
+252 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/crypto-browserify/package.json
+253 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/csrf/package.json
+254 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/css-animation/package.json
+255 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/css-color-names/package.json
+256 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/css-loader/package.json
+257 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/css-select/package.json
+258 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/css-selector-tokenizer/package.json
+259 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/css-vendor/package.json
+260 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/css-what/package.json
+261 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cssesc/package.json
+262 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/cssnano/package.json
+263 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/csso/package.json
+264 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/csurf/package.json
+265 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/currently-unhandled/package.json
+266 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/d/package.json
+267 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/damerau-levenshtein/package.json
+268 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dargs/package.json
+269 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dashdash/package.json
+270 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/date-now/package.json
+271 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dateformat/package.json
+272 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/debug/package.json
+273 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/decamelize/package.json
+274 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/decompress/package.json
+275 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/decompress-tar/package.json
+276 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/decompress-tarbz2/package.json
+277 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/decompress-targz/package.json
+278 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/decompress-unzip/package.json
+279 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/deep-equal/package.json
+280 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/deep-extend/package.json
+281 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/deep-is/package.json
+282 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/defined/package.json
+283 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/del/package.json
+284 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/delayed-stream/package.json
+285 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/delegates/package.json
+286 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/denodeify/package.json
+287 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/depd/package.json
+288 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/destroy/package.json
+289 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/detect-conflict/package.json
+290 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/detect-indent/package.json
+291 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/detect-newline/package.json
+292 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/detective/package.json
+293 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/diff/package.json
+294 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/doctrine/package.json
+295 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dom-align/package.json
+296 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dom-scroll-into-view/package.json
+297 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dom-serializer/package.json
+298 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dom-walk/package.json
+299 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/domain-browser/package.json
+300 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/domelementtype/package.json
+301 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/domhandler/package.json
+302 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/domutils/package.json
+303 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dora/package.json
+304 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dora-anyproxy/package.json
+305 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dora-plugin-browser-history/package.json
+306 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dora-plugin-proxy/package.json
+307 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dora-plugin-webpack/package.json
+308 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/dora-plugin-webpack-hmr/package.json
+309 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/download/package.json
+310 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/duplexer2/package.json
+311 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/duplexify/package.json
+312 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/each-async/package.json
+313 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ecc-jsbn/package.json
+314 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ee-first/package.json
+315 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ejs/package.json
+316 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/emojis-list/package.json
+317 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/encoding/package.json
+318 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/end-of-stream/package.json
+319 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/enhanced-resolve/package.json
+320 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/entities/package.json
+321 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/errno/package.json
+322 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/error-ex/package.json
+323 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/error-inject/package.json
+324 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/error-stack-parser/package.json
+325 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/errorhandler/package.json
+326 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/es5-ext/package.json
+327 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/es6-iterator/package.json
+328 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/es6-map/package.json
+329 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/es6-set/package.json
+330 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/es6-symbol/package.json
+331 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/es6-weak-map/package.json
+332 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/escape-html/package.json
+333 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/escape-string-regexp/package.json
+334 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/escodegen/package.json
+335 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/escope/package.json
+336 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/eslint/package.json
+337 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/eslint-config-airbnb/package.json
+338 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/eslint-config-airbnb-base/package.json
+339 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/eslint-import-resolver-node/package.json
+340 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/eslint-plugin-import/package.json
+341 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/eslint-plugin-jsx-a11y/package.json
+342 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/eslint-plugin-react/package.json
+343 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/espree/package.json
+344 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/esprima-fb/package.json
+345 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/esrecurse/package.json
+346 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/estraverse/package.json
+347 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/esutils/package.json
+348 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/etag/package.json
+349 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/event-emitter/package.json
+350 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/event-target-shim/package.json
+351 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/events/package.json
+352 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/exec-sh/package.json
+353 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/exenv/package.json
+354 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/exit-hook/package.json
+355 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/expand-brackets/package.json
+356 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/expand-range/package.json
+357 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/express-session/package.json
+358 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/extend/package.json
+359 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/extend-shallow/package.json
+360 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/extglob/package.json
+361 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/extract-text-webpack-plugin/package.json
+362 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/extsprintf/package.json
+363 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fancy-log/package.json
+364 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fast-levenshtein/package.json
+365 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fastparse/package.json
+366 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fb-watchman/package.json
+367 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fbjs/package.json
+368 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fbjs-scripts/package.json
+369 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fd-slicer/package.json
+370 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/figures/package.json
+371 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/file-entry-cache/package.json
+372 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/file-loader/package.json
+373 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/file-type/package.json
+374 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/filename-regex/package.json
+375 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/filename-reserved-regex/package.json
+376 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/filenamify/package.json
+377 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fill-range/package.json
+378 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/finalhandler/package.json
+379 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/find-cache-dir/package.json
+380 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/find-up/package.json
+381 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/first-chunk-stream/package.json
+382 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/flat-cache/package.json
+383 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/flatten/package.json
+384 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/for-in/package.json
+385 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/for-own/package.json
+386 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/forever-agent/package.json
+387 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/form-data/package.json
+388 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/formatio/package.json
+389 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fresh/package.json
+390 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fs-extra/package.json
+391 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fs.realpath/package.json
+392 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/fsevents/package.json
+393 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/function-bind/package.json
+394 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/gather-stream/package.json
+395 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/gauge/package.json
+396 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/generate-function/package.json
+397 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/generate-object-property/package.json
+398 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/get-proxy/package.json
+399 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/get-stdin/package.json
+400 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/getpass/package.json
+401 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/gh-got/package.json
+402 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/github-username/package.json
+403 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/glob/package.json
+404 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/glob-base/package.json
+405 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/glob-parent/package.json
+406 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/glob-stream/package.json
+407 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/global/package.json
+408 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/globals/package.json
+409 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/globby/package.json
+410 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/glogg/package.json
+411 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/got/package.json
+412 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/graceful-fs/package.json
+413 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/graceful-readlink/package.json
+414 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/grouped-queue/package.json
+415 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/growl/package.json
+416 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/gruntfile-editor/package.json
+417 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/gulp-decompress/package.json
+418 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/gulp-rename/package.json
+419 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/gulp-sourcemaps/package.json
+420 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/gulp-util/package.json
+421 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/gulplog/package.json
+422 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/hammerjs/package.json
+423 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/har-validator/package.json
+424 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/has/package.json
+425 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/has-ansi/package.json
+426 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/has-flag/package.json
+427 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/has-gulplog/package.json
+428 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/has-unicode/package.json
+429 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/hawk/package.json
+430 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/hoek/package.json
+431 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/hoist-non-react-statics/package.json
+432 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/home-or-tmp/package.json
+433 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/hosted-git-info/package.json
+434 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/html-comment-regex/package.json
+435 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/html-entities/package.json
+436 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/html-wiring/package.json
+437 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/htmlparser2/package.json
+438 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/http-assert/package.json
+439 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/http-browserify/package.json
+440 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/http-errors/package.json
+441 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/http-signature/package.json
+442 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/https-browserify/package.json
+443 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/iconv-lite/package.json
+444 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/icss-replace-symbols/package.json
+445 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ieee754/package.json
+446 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ignore/package.json
+447 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/image-size/package.json
+448 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/immutable/package.json
+449 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/imurmurhash/package.json
+450 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/indent-string/package.json
+451 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/indexes-of/package.json
+452 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/indexof/package.json
+453 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/inflight/package.json
+454 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/inherits/package.json
+455 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/inherits-ex/package.json
+456 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ini/package.json
+457 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/inquirer/package.json
+458 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/interpret/package.json
+459 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/invariant/package.json
+460 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/invert-kv/package.json
+461 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ip/package.json
+462 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-absolute/package.json
+463 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-absolute-url/package.json
+464 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-ali-env/package.json
+465 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-arrayish/package.json
+466 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-binary-path/package.json
+467 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-buffer/package.json
+468 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-builtin-module/package.json
+469 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-bzip2/package.json
+470 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-dotfile/package.json
+471 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-equal-shallow/package.json
+472 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-extendable/package.json
+473 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-extglob/package.json
+474 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-finite/package.json
+475 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-fullwidth-code-point/package.json
+476 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-generator-fn/package.json
+477 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-glob/package.json
+478 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-gzip/package.json
+479 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-in-browser/package.json
+480 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-my-json-valid/package.json
+481 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-natural-number/package.json
+482 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-number/package.json
+483 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-obj/package.json
+484 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-path-cwd/package.json
+485 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-path-in-cwd/package.json
+486 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-path-inside/package.json
+487 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-plain-obj/package.json
+488 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-plain-object/package.json
+489 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-posix-bracket/package.json
+490 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-primitive/package.json
+491 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-property/package.json
+492 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-redirect/package.json
+493 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-relative/package.json
+494 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-resolvable/package.json
+495 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-retry-allowed/package.json
+496 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-stream/package.json
+497 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-svg/package.json
+498 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-tar/package.json
+499 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-typedarray/package.json
+500 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-url/package.json
+501 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-utf8/package.json
+502 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-valid-glob/package.json
+503 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/is-zip/package.json
+504 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/isarray/package.json
+505 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/isemail/package.json
+506 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/isexe/package.json
+507 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/isobject/package.json
+508 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/isomorphic-fetch/package.json
+509 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/isstream/package.json
+510 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/istextorbinary/package.json
+511 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jade/package.json
+512 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jodid25519/package.json
+513 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/joi/package.json
+514 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jquery-param/package.json
+515 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/js-base64/package.json
+516 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/js-cookie/package.json
+517 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/js-tokens/package.json
+518 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/js-yaml/package.json
+519 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jsbn/package.json
+520 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jsesc/package.json
+521 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/json-loader/package.json
+522 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/json-schema/package.json
+523 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/json-stable-stringify/package.json
+524 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/json-stringify-safe/package.json
+525 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/json5/package.json
+526 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jsonfile/package.json
+527 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jsonify/package.json
+528 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jsonparse/package.json
+529 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jsonpointer/package.json
+530 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jsprim/package.json
+531 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jstransform/package.json
+532 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/jsx-ast-utils/package.json
+533 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/keygrip/package.json
+534 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/kind-of/package.json
+535 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/klaw/package.json
+536 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/koa/package.json
+537 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/koa-compose/package.json
+538 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/koa-is-json/package.json
+539 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/koa-send/package.json
+540 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/koa-serve-index/package.json
+541 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/koa-static/package.json
+542 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/koa-webpack-dev-middleware/package.json
+543 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/kw-react-tween-state/package.json
+544 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/laggard/package.json
+545 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lazy-cache/package.json
+546 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lazystream/package.json
+547 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lcid/package.json
+548 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/less/package.json
+549 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/less-loader/package.json
+550 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/less-plugin-npm-import/package.json
+551 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/levn/package.json
+552 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/limiter/package.json
+553 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/livereload/package.json
+554 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/load-json-file/package.json
+555 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/loader-utils/package.json
+556 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash/package.json
+557 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash._basecopy/package.json
+558 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash._basetostring/package.json
+559 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash._basevalues/package.json
+560 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash._createcompounder/package.json
+561 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash._getnative/package.json
+562 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash._isiterateecall/package.json
+563 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash._reescape/package.json
+564 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash._reevaluate/package.json
+565 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash._reinterpolate/package.json
+566 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash._root/package.json
+567 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.assign/package.json
+568 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.camelcase/package.json
+569 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.cond/package.json
+570 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.deburr/package.json
+571 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.endswith/package.json
+572 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.escape/package.json
+573 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.find/package.json
+574 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.findindex/package.json
+575 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.indexof/package.json
+576 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.isarguments/package.json
+577 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.isarray/package.json
+578 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.isequal/package.json
+579 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.kebabcase/package.json
+580 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.keys/package.json
+581 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.pad/package.json
+582 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.padend/package.json
+583 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.padstart/package.json
+584 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.pickby/package.json
+585 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.restparam/package.json
+586 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.template/package.json
+587 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.templatesettings/package.json
+588 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lodash.words/package.json
+589 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/log-symbols/package.json
+590 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lolex/package.json
+591 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/longest/package.json
+592 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/loose-envify/package.json
+593 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/loud-rejection/package.json
+594 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lowercase-keys/package.json
+595 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/lru-cache/package.json
+596 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/macaddress/package.json
+597 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/makeerror/package.json
+598 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/map-json-webpack-plugin/package.json
+599 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/map-obj/package.json
+600 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/math-expression-evaluator/package.json
+601 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/media-typer/package.json
+602 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mem-fs/package.json
+603 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mem-fs-editor/package.json
+604 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/memory-fs/package.json
+605 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/meow/package.json
+606 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/merge/package.json
+607 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/merge-stream/package.json
+608 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/method-override/package.json
+609 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/methods/package.json
+610 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/micromatch/package.json
+611 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mime/package.json
+612 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mime-db/package.json
+613 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mime-type/package.json
+614 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mime-types/package.json
+615 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/min-document/package.json
+616 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/minimatch/package.json
+617 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/minimist/package.json
+618 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mkdirp/package.json
+619 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mocha/package.json
+620 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mockjs/package.json
+621 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/module-deps/package.json
+622 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/moment/package.json
+623 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/morgan/package.json
+624 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ms/package.json
+625 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/multimatch/package.json
+626 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/multiparty/package.json
+627 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/multipipe/package.json
+628 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mute-stream/package.json
+629 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/mz/package.json
+630 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/nan/package.json
+631 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/nedb/package.json
+632 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/negotiator/package.json
+633 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/node-fetch/package.json
+634 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/node-int64/package.json
+635 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/node-libs-browser/package.json
+636 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/node-status-codes/package.json
+637 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/node-uuid/package.json
+638 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/nopt/package.json
+639 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/normalize-package-data/package.json
+640 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/normalize-path/package.json
+641 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/normalize-range/package.json
+642 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/normalize-url/package.json
+643 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/normalize.css/package.json
+644 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/npm-install-webpack-plugin-cn/package.json
+645 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/npmlog/package.json
+646 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/nth-check/package.json
+647 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/nuka-carousel/package.json
+648 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/num2fraction/package.json
+649 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/number-is-nan/package.json
+650 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/oauth-sign/package.json
+651 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/object-assign/package.json
+652 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/object-path/package.json
+653 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/object.omit/package.json
+654 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/omit.js/package.json
+655 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/on-finished/package.json
+656 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/on-headers/package.json
+657 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/once/package.json
+658 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/onetime/package.json
+659 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/only/package.json
+660 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/opn/package.json
+661 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/optimist/package.json
+662 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/optionator/package.json
+663 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/options/package.json
+664 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/opts/package.json
+665 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ordered-read-streams/package.json
+666 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/os-browserify/package.json
+667 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/os-homedir/package.json
+668 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/os-locale/package.json
+669 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/os-shim/package.json
+670 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/os-tmpdir/package.json
+671 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pako/package.json
+672 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/parents/package.json
+673 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/parse-glob/package.json
+674 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/parse-json/package.json
+675 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/parseurl/package.json
+676 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/path-browserify/package.json
+677 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/path-dirname/package.json
+678 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/path-exists/package.json
+679 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/path-is-absolute/package.json
+680 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/path-is-inside/package.json
+681 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/path-platform/package.json
+682 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/path-to-regexp/package.json
+683 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/path-type/package.json
+684 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/path.js/package.json
+685 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pause/package.json
+686 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pbkdf2-compat/package.json
+687 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pegjs/package.json
+688 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pend/package.json
+689 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/performance-now/package.json
+690 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pify/package.json
+691 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pinkie/package.json
+692 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pinkie-promise/package.json
+693 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pinkyswear/package.json
+694 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pixrem/package.json
+695 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pkg-dir/package.json
+696 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pkg-up/package.json
+697 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/plist/package.json
+698 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pluralize/package.json
+699 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss/package.json
+700 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-alias/package.json
+701 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-calc/package.json
+702 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-clearfix/package.json
+703 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-color-rgba-fallback/package.json
+704 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-colormin/package.json
+705 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-convert-values/package.json
+706 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-discard-comments/package.json
+707 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-discard-duplicates/package.json
+708 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-discard-empty/package.json
+709 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-discard-overridden/package.json
+710 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-discard-unused/package.json
+711 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-easings/package.json
+712 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-filter-plugins/package.json
+713 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-fontpath/package.json
+714 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-hexrgba/package.json
+715 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-input-style/package.json
+716 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-loader/package.json
+717 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-merge-idents/package.json
+718 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-merge-longhand/package.json
+719 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-merge-rules/package.json
+720 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-message-helpers/package.json
+721 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-minify-font-values/package.json
+722 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-minify-gradients/package.json
+723 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-minify-params/package.json
+724 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-minify-selectors/package.json
+725 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-modules-extract-imports/package.json
+726 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-modules-local-by-default/package.json
+727 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-modules-scope/package.json
+728 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-modules-values/package.json
+729 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-normalize-charset/package.json
+730 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-normalize-url/package.json
+731 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-opacity/package.json
+732 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-ordered-values/package.json
+733 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-position/package.json
+734 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-pseudoelements/package.json
+735 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-pxtorem/package.json
+736 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-quantity-queries/package.json
+737 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-reduce-idents/package.json
+738 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-reduce-initial/package.json
+739 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-reduce-transforms/package.json
+740 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-reporter/package.json
+741 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-responsive-type/package.json
+742 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-selector-parser/package.json
+743 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-svgo/package.json
+744 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-unique-selectors/package.json
+745 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-value-parser/package.json
+746 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-vmin/package.json
+747 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-will-change/package.json
+748 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/postcss-zindex/package.json
+749 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pre-commit/package.json
+750 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/prelude-ls/package.json
+751 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/prepend-http/package.json
+752 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/preserve/package.json
+753 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pretty-bytes/package.json
+754 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/private/package.json
+755 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/process/package.json
+756 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/process-nextick-args/package.json
+757 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/progress/package.json
+758 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/promise/package.json
+759 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/promises-aplus-tests/package.json
+760 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/prr/package.json
+761 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/pseudomap/package.json
+762 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/punycode/package.json
+763 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/q/package.json
+764 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/qrcode-npm/package.json
+765 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/qs/package.json
+766 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/query-string/package.json
+767 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/querystring/package.json
+768 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/querystring-es3/package.json
+769 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/qwest/package.json
+770 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/raf/package.json
+771 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/random-bytes/package.json
+772 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/randomatic/package.json
+773 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/range-parser/package.json
+774 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/raw-body/package.json
+775 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc/package.json
+776 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-align/package.json
+777 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-animate/package.json
+778 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-checkbox/package.json
+779 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-collapse/package.json
+780 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-dialog/package.json
+781 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-drawer/package.json
+782 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-form/package.json
+783 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-input-number/package.json
+784 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-notification/package.json
+785 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-slider/package.json
+786 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-steps/package.json
+787 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-swipeout/package.json
+788 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-table/package.json
+789 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-tabs/package.json
+790 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-tooltip/package.json
+791 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-trigger/package.json
+792 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rc-util/package.json
+793 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react/package.json
+794 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-clone-referenced-element/package.json
+795 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-data-binding/package.json
+796 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-deep-force-update/package.json
+797 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-dom/package.json
+798 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-hammerjs/package.json
+799 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-mixin/package.json
+800 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-native/package.json
+801 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-native-camera-roll-picker/package.json
+802 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-native-dismiss-keyboard/package.json
+803 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-native-drawer-layout/package.json
+804 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-native-menu/package.json
+805 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-native-picker-android/package.json
+806 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-native-scrollable-tab-view/package.json
+807 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-native-swipe-out/package.json
+808 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-proxy/package.json
+809 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-static-container/package.json
+810 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-sticky/package.json
+811 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-timer-mixin/package.json
+812 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-transform-hmr/package.json
+813 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/react-tween-state/package.json
+814 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/read-all-stream/package.json
+815 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/read-chunk/package.json
+816 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/read-file-stdin/package.json
+817 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/read-pkg/package.json
+818 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/read-pkg-up/package.json
+819 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/readable-stream/package.json
+820 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/readdirp/package.json
+821 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/readline2/package.json
+822 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rebound/package.json
+823 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/recast/package.json
+824 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/redbox-react/package.json
+825 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/redent/package.json
+826 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/reduce-css-calc/package.json
+827 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/reduce-function-call/package.json
+828 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/regenerate/package.json
+829 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/regenerator-runtime/package.json
+830 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/regex-cache/package.json
+831 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/regexpu-core/package.json
+832 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/regjsgen/package.json
+833 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/regjsparser/package.json
+834 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/repeat-element/package.json
+835 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/repeat-string/package.json
+836 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/repeating/package.json
+837 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/replace-ext/package.json
+838 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/request/package.json
+839 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/require-uncached/package.json
+840 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/reselect/package.json
+841 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/resolve/package.json
+842 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/resolve-from/package.json
+843 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/resolve-path/package.json
+844 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/response-time/package.json
+845 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/restore-cursor/package.json
+846 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rgb-hex/package.json
+847 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/right-align/package.json
+848 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rimraf/package.json
+849 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ripemd160/package.json
+850 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rmc-cascader/package.json
+851 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rmc-date-picker/package.json
+852 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rmc-list-view/package.json
+853 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rmc-picker/package.json
+854 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rn-topview/package.json
+855 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rndm/package.json
+856 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/roof/package.json
+857 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rucksack-css/package.json
+858 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/run-async/package.json
+859 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/rx-lite/package.json
+860 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/samsam/package.json
+861 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sane/package.json
+862 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sax/package.json
+863 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/seek-bzip/package.json
+864 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/semver/package.json
+865 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/send/package.json
+866 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/serve-favicon/package.json
+867 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/serve-index/package.json
+868 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/serve-static/package.json
+869 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/set-immediate-shim/package.json
+870 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/setprototypeof/package.json
+871 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sha.js/package.json
+872 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/shallowequal/package.json
+873 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/shelljs/package.json
+874 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sigmund/package.json
+875 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/signal-exit/package.json
+876 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/simple-plist/package.json
+877 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sinon/package.json
+878 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/slash/package.json
+879 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/slice-ansi/package.json
+880 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/smart-mixin/package.json
+881 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sntp/package.json
+882 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sort-keys/package.json
+883 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/source-list-map/package.json
+884 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/source-map/package.json
+885 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/source-map-support/package.json
+886 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sparkles/package.json
+887 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/spawn-sync/package.json
+888 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/spdx-correct/package.json
+889 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/spdx-expression-parse/package.json
+890 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/spdx-license-ids/package.json
+891 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/spm-log/package.json
+892 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sprintf-js/package.json
+893 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sshpk/package.json
+894 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/stackframe/package.json
+895 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/stacktrace-parser/package.json
+896 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/stat-mode/package.json
+897 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/statuses/package.json
+898 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/stream-browserify/package.json
+899 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/stream-buffers/package.json
+900 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/stream-combiner2/package.json
+901 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/stream-counter/package.json
+902 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/stream-shift/package.json
+903 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/stream-throttle/package.json
+904 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/strict-uri-encode/package.json
+905 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/string-width/package.json
+906 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/string_decoder/package.json
+907 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/stringstream/package.json
+908 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/strip-ansi/package.json
+909 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/strip-bom/package.json
+910 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/strip-bom-stream/package.json
+911 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/strip-dirs/package.json
+912 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/strip-indent/package.json
+913 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/strip-json-comments/package.json
+914 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/strip-outer/package.json
+915 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/subarg/package.json
+916 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/sum-up/package.json
+917 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/supports-color/package.json
+918 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/svgo/package.json
+919 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/table/package.json
+920 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/tapable/package.json
+921 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/tar-stream/package.json
+922 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/temp/package.json
+923 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/text-table/package.json
+924 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/textextensions/package.json
+925 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/thenify/package.json
+926 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/thenify-all/package.json
+927 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/through/package.json
+928 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/through2/package.json
+929 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/through2-filter/package.json
+930 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/time-stamp/package.json
+931 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/timed-out/package.json
+932 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/timers-browserify/package.json
+933 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/tmpl/package.json
+934 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/to-absolute-glob/package.json
+935 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/to-fast-properties/package.json
+936 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/topo/package.json
+937 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/tough-cookie/package.json
+938 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/traverse/package.json
+939 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/trim-newlines/package.json
+940 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/trim-repeated/package.json
+941 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/tryit/package.json
+942 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ts-loader/package.json
+943 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/tsscmp/package.json
+944 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/tty-browserify/package.json
+945 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/tunnel-agent/package.json
+946 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/tween-functions/package.json
+947 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/tweetnacl/package.json
+948 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/type-check/package.json
+949 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/type-is/package.json
+950 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/typedarray/package.json
+951 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/typescript/package.json
+952 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ua-parser-js/package.json
+953 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/uglify-js/package.json
+954 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/uglify-to-browserify/package.json
+955 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/uid-safe/package.json
+956 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ultron/package.json
+957 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/underscore/package.json
+958 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/underscore.string/package.json
+959 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/uniq/package.json
+960 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/uniqid/package.json
+961 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/uniqs/package.json
+962 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/unique-stream/package.json
+963 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/unpipe/package.json
+964 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/untildify/package.json
+965 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/unzip-response/package.json
+966 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/url/package.json
+967 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/url-loader/package.json
+968 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/url-parse-lax/package.json
+969 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/user-home/package.json
+970 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/util/package.json
+971 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/util-deprecate/package.json
+972 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/util-ex/package.json
+973 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/utils-merge/package.json
+974 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/uuid/package.json
+975 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/vali-date/package.json
+976 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/validate-npm-package-license/package.json
+977 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/vary/package.json
+978 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/vendors/package.json
+979 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/verror/package.json
+980 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/vhost/package.json
+981 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/vinyl/package.json
+982 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/vinyl-assign/package.json
+983 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/vinyl-file/package.json
+984 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/vinyl-fs/package.json
+985 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/vm-browserify/package.json
+986 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/walker/package.json
+987 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ware/package.json
+988 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/warning/package.json
+989 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/watch/package.json
+990 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/watchpack/package.json
+991 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/webpack/package.json
+992 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/webpack-add-module-exports/package.json
+993 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/webpack-core/package.json
+994 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/webpack-dev-middleware/package.json
+995 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/webpack-hot-middleware/package.json
+996 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/webpack-sources/package.json
+997 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/whatwg-fetch/package.json
+998 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/whet.extend/package.json
+999 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/which/package.json
+1000 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/window-size/package.json
+1001 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/wordwrap/package.json
+1002 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/worker-farm/package.json
+1003 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/wrap-ansi/package.json
+1004 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/wrap-fn/package.json
+1005 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/wrappy/package.json
+1006 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/write/package.json
+1007 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/write-file-stdout/package.json
+1008 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/ws/package.json
+1009 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/xcode/package.json
+1010 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/xdg-basedir/package.json
+1011 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/xmlbuilder/package.json
+1012 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/xmldoc/package.json
+1013 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/xmldom/package.json
+1014 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/xtend/package.json
+1015 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/y18n/package.json
+1016 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/yallist/package.json
+1017 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/yargs/package.json
+1018 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/yauzl/package.json
+1019 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/yeoman-assert/package.json
+1020 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/yeoman-environment/package.json
+1021 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/yeoman-generator/package.json
+1022 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/yeoman-welcome/package.json
+1023 verbose installManyTop reading scoped package data from /Users/alibaba/pikachu-mobile/node_modules/zscroller/package.json
+1024 info package.json Base64@0.2.1 No license field.
+1025 info package.json add-dom-event-listener@1.0.1 No license field.
+1026 info package.json arr-flatten@1.0.1 license should be a valid SPDX license expression
+1027 info package.json array-unique@0.2.1 license should be a valid SPDX license expression
+1028 info package.json assert@1.4.1 assert is also the name of a node core module.
+1029 info package.json async@0.2.10 No license field.
+1030 info package.json async-validator@1.6.6 No license field.
+1031 info package.json atool-monitor@0.3.2 No description
+1032 info package.json atool-monitor@0.3.2 No license field.
+1033 info package.json babel-plugin-antd@0.4.1 No repository field.
+1034 info package.json babel-plugin-dva-hmr@0.1.0 No repository field.
+1035 info package.json babel-plugin-import@1.0.1 No repository field.
+1036 info package.json babel-plugin-transform-regenerator@6.16.1 license should be a valid SPDX license expression
+1037 info package.json batch@0.5.3 No license field.
+1038 info package.json bcrypt-pbkdf@1.0.0 No repository field.
+1039 info package.json binary-search-tree@0.2.4 No license field.
+1040 info package.json buffer@4.9.1 buffer is also the name of a node core module.
+1041 info package.json cli-table@0.3.1 No license field.
+1042 info package.json coa@1.0.1 No license field.
+1043 info package.json colorful@2.1.0 No license field.
+1044 info package.json component-indexof@0.0.3 No license field.
+1045 info package.json console-browserify@1.1.0 No license field.
+1046 info package.json crequire@1.7.0 No license field.
+1047 info package.json css-animation@1.3.0 No license field.
+1048 info package.json css-select@1.0.0 license should be a valid SPDX license expression
+1049 info package.json css-what@1.0.0 license should be a valid SPDX license expression
+1050 info package.json cssesc@0.1.0 No license field.
+1051 info package.json date-now@0.1.4 No license field.
+1052 info package.json deep-is@0.1.3 license should be a valid SPDX license expression
+1053 info package.json doctrine@1.5.0 No license field.
+1054 info package.json dom-align@1.5.2 No license field.
+1055 info package.json dom-walk@0.1.1 No license field.
+1056 info package.json domelementtype@1.3.0 No license field.
+1057 info package.json domhandler@2.3.0 No license field.
+1058 info package.json domutils@1.4.3 No license field.
+1059 info package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+1060 info package.json enhanced-resolve@0.9.1 No license field.
+1061 info package.json entities@1.1.1 license should be a valid SPDX license expression
+1062 info package.json esprima-fb@15001.1.0-dev-harmony-fb No license field.
+1063 info package.json estraverse@1.9.3 No license field.
+1064 info package.json esutils@2.0.2 No license field.
+1065 info package.json events@1.1.1 events is also the name of a node core module.
+1066 info package.json exec-sh@0.2.0 license should be a valid SPDX license expression
+1067 info package.json exenv@1.2.1 license should be a valid SPDX license expression
+1068 info package.json extsprintf@1.0.2 No license field.
+1069 info package.json filename-regex@2.0.0 license should be a valid SPDX license expression
+1070 info package.json formatio@1.1.1 No license field.
+1071 info package.json function-bind@1.1.0 No license field.
+1072 info package.json glob-base@0.3.0 license should be a valid SPDX license expression
+1073 info package.json growl@1.8.1 No license field.
+1074 info package.json gulp-rename@1.2.2 No license field.
+1075 info package.json has@1.0.1 No license field.
+1076 info package.json hoist-non-react-statics@1.2.0 No license field.
+1077 info package.json http-browserify@1.7.0 license should be a valid SPDX license expression
+1078 info package.json indexof@0.0.1 No repository field.
+1079 info package.json indexof@0.0.1 No license field.
+1080 info package.json is-absolute@0.1.7 license should be a valid SPDX license expression
+1081 info package.json is-primitive@2.0.0 license should be a valid SPDX license expression
+1082 info package.json is-relative@0.1.3 No license field.
+1083 info package.json istextorbinary@1.0.2 license should be a valid SPDX license expression
+1084 info package.json jade@0.26.3 No license field.
+1085 info package.json js-base64@2.1.9 license should be a valid SPDX license expression
+1086 info package.json jsbn@0.1.0 license should be a valid SPDX license expression
+1087 info package.json json-schema@0.2.3 No license field.
+1088 info package.json jsonify@0.0.0 license should be a valid SPDX license expression
+1089 info package.json keygrip@1.0.1 No license field.
+1090 info package.json kw-react-tween-state@0.1.5 license should be a valid SPDX license expression
+1091 info package.json koa-webpack-dev-middleware@1.2.2 No license field.
+1092 info package.json less-loader@2.2.3 No license field.
+1093 info package.json less-plugin-npm-import@2.1.0 No license field.
+1094 info package.json limiter@1.1.0 No license field.
+1095 info package.json livereload@0.6.0 No license field.
+1096 info package.json longest@1.0.1 license should be a valid SPDX license expression
+1097 info package.json map-json-webpack-plugin@1.1.0 No license field.
+1098 info package.json mime@1.3.4 No license field.
+1099 info package.json min-document@2.19.0 No license field.
+1100 info package.json mocha@1.21.5 No license field.
+1101 info package.json mockjs@1.0.1-beta3 No license field.
+1102 info package.json ms@0.7.1 No license field.
+1103 info package.json nedb@0.11.2 No license field.
+1104 info package.json node-uuid@1.4.7 No license field.
+1105 info package.json nth-check@1.0.1 license should be a valid SPDX license expression
+1106 info package.json only@0.0.2 No license field.
+1107 info package.json optimist@0.6.1 license should be a valid SPDX license expression
+1108 info package.json options@0.0.6 No license field.
+1109 info package.json opts@1.2.2 No repository field.
+1110 info package.json opts@1.2.2 No license field.
+1111 info package.json os-shim@0.1.3 No license field.
+1112 info package.json pixrem@3.0.2 No license field.
+1113 info package.json pinkyswear@2.2.2 license should be a valid SPDX license expression
+1114 info package.json prelude-ls@1.1.2 No license field.
+1115 info package.json preserve@0.2.0 license should be a valid SPDX license expression
+1116 info package.json process@0.5.2 process is also the name of a node core module.
+1117 info package.json process@0.5.2 No license field.
+1118 info package.json progress@1.1.8 No license field.
+1119 info package.json punycode@1.4.1 punycode is also the name of a node core module.
+1120 info package.json q@1.4.1 license should be a valid SPDX license expression
+1121 info package.json querystring-es3@0.2.1 No license field.
+1122 info package.json querystring@0.2.0 querystring is also the name of a node core module.
+1123 info package.json querystring@0.2.0 No license field.
+1124 info package.json rc-align@2.3.2 No license field.
+1125 info package.json rc-animate@2.3.1 No license field.
+1126 info package.json rc-checkbox@1.4.3 No license field.
+1127 info package.json rc-dialog@6.5.0 No license field.
+1128 info package.json rc-input-number@2.7.6 No license field.
+1129 info package.json rc-notification@1.3.5 No license field.
+1130 info package.json rc-swipeout@1.1.5 No license field.
+1131 info package.json rc-slider@4.0.1 No license field.
+1132 info package.json rc-steps@2.2.0 No license field.
+1133 info package.json rc-table@4.6.0 No license field.
+1134 info package.json rc-tooltip@3.4.2 No license field.
+1135 info package.json rc-tabs@7.0.10 No license field.
+1136 info package.json rc-util@4.0.1 No license field.
+1137 info package.json react-data-binding@0.4.1 No license field.
+1138 info package.json rc-trigger@1.7.3 No license field.
+1139 info package.json react-tween-state@0.1.5 license should be a valid SPDX license expression
+1140 info package.json rebound@0.0.13 license should be a valid SPDX license expression
+1141 info package.json regjsparser@0.1.5 license should be a valid SPDX license expression
+1142 info package.json repeat-element@1.1.2 license should be a valid SPDX license expression
+1143 info package.json replace-ext@0.0.1 No license field.
+1144 info package.json ripemd160@0.2.0 No license field.
+1145 info package.json rmc-date-picker@5.0.3 No license field.
+1146 info package.json rmc-cascader@3.0.5 No license field.
+1147 info package.json rmc-picker@3.4.8 No license field.
+1148 info package.json rn-topview@0.1.0 No description
+1149 info package.json rn-topview@0.1.0 No repository field.
+1150 info package.json rn-topview@0.1.0 license should be a valid SPDX license expression
+1151 info package.json roof@0.5.6 No repository field.
+1152 info package.json roof@0.5.6 No license field.
+1153 info package.json rx-lite@3.1.2 No license field.
+1154 info package.json samsam@1.1.2 No license field.
+1155 info package.json shelljs@0.5.3 license should be a valid SPDX license expression
+1156 info package.json smart-mixin@2.0.0 No repository field.
+1157 info package.json sntp@1.0.9 No license field.
+1158 info package.json stream-buffers@0.2.6 No license field.
+1159 info package.json stream-counter@0.2.0 license should be a valid SPDX license expression
+1160 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+1161 info package.json strip-dirs@1.1.1 No license field.
+1162 info package.json timers-browserify@1.4.2 No license field.
+1163 info package.json tween-functions@1.2.0 license should be a valid SPDX license expression
+1164 info package.json underscore@1.4.4 No license field.
+1165 info package.json url@0.10.3 url is also the name of a node core module.
+1166 info package.json util@0.10.3 util is also the name of a node core module.
+1167 info package.json utils-merge@1.0.0 No license field.
+1168 info package.json verror@1.3.6 No license field.
+1169 info package.json watch@0.10.0 No license field.
+1170 info package.json webpack-add-module-exports@0.0.2 No repository field.
+1171 info package.json webpack-core@0.6.8 No license field.
+1172 info package.json webpack-dev-middleware@1.6.1 No license field.
+1173 info package.json window-size@0.1.0 No license field.
+1174 info package.json xcode@0.8.9 No license field.
+1175 info package.json xmldoc@0.4.0 license should be a valid SPDX license expression
+1176 info package.json xmldom@0.1.22 No license field.
+1177 info package.json zscroller@0.2.3 No license field.
+1178 verbose readDependencies loading dependencies from /Users/alibaba/pikachu-mobile/package.json
+1179 silly cache add args [ 'react-native-router-flux', null ]
+1180 verbose cache add spec react-native-router-flux
+1181 silly cache add parsed spec Result {
+1181 silly cache add   raw: 'react-native-router-flux',
+1181 silly cache add   scope: null,
+1181 silly cache add   name: 'react-native-router-flux',
+1181 silly cache add   rawSpec: '',
+1181 silly cache add   spec: 'latest',
+1181 silly cache add   type: 'tag' }
+1182 silly addNamed react-native-router-flux@latest
+1183 verbose addNamed "latest" is being treated as a dist-tag for react-native-router-flux
+1184 info addNameTag [ 'react-native-router-flux', 'latest' ]
+1185 silly mapToRegistry name react-native-router-flux
+1186 silly mapToRegistry using default registry
+1187 silly mapToRegistry registry http://registry.npm.alibaba-inc.com/
+1188 silly mapToRegistry data Result {
+1188 silly mapToRegistry   raw: 'react-native-router-flux',
+1188 silly mapToRegistry   scope: null,
+1188 silly mapToRegistry   name: 'react-native-router-flux',
+1188 silly mapToRegistry   rawSpec: '',
+1188 silly mapToRegistry   spec: 'latest',
+1188 silly mapToRegistry   type: 'tag' }
+1189 silly mapToRegistry uri http://registry.npm.alibaba-inc.com/react-native-router-flux
+1190 verbose addNameTag registry:http://registry.npm.alibaba-inc.com/react-native-router-flux not in flight; fetching
+1191 verbose request uri http://registry.npm.alibaba-inc.com/react-native-router-flux
+1192 verbose request no auth needed
+1193 info attempt registry request try #1 at 09:56:23
+1194 verbose request id 0fe88947d6689966
+1195 http request GET http://registry.npm.alibaba-inc.com/react-native-router-flux
+1196 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 100.67.94.5:80
+1197 info attempt registry request try #2 at 09:57:48
+1198 http request GET http://registry.npm.alibaba-inc.com/react-native-router-flux
+1199 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 100.67.94.5:80
+1200 info attempt registry request try #3 at 10:00:03
+1201 http request GET http://registry.npm.alibaba-inc.com/react-native-router-flux
+1202 verbose stack Error: connect ETIMEDOUT 100.67.94.5:80
+1202 verbose stack     at Object.exports._errnoException (util.js:896:11)
+1202 verbose stack     at exports._exceptionWithHostPort (util.js:919:20)
+1202 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1073:14)
+1203 verbose cwd /Users/alibaba/pikachu-mobile
+1204 error Darwin 16.1.0
+1205 error argv "/Users/alibaba/.nvm/versions/node/v6.0.0/bin/node" "/Users/alibaba/.nvm/versions/node/v6.0.0/lib/node_modules/tnpm/node_modules/npm/bin/npm-cli.js" "install" "--cache=/Users/alibaba/.tnpm" "--node_sqlite3_binary_host_mirror=https://npm.taobao.org/mirrors/" "--fse_binary_host_mirror=https://npm.taobao.org/mirrors/fsevents/" "--no-proxy" "--disturl=https://npm.taobao.org/mirrors/node" "--userconfig=/Users/alibaba/.tnpmrc" "--registry=http://registry.npm.alibaba-inc.com" "react-native-router-flux" "--save"
+1206 error node v6.0.0
+1207 error npm  v2.15.6
+1208 error code ETIMEDOUT
+1209 error errno ETIMEDOUT
+1210 error syscall connect
+1211 error network connect ETIMEDOUT 100.67.94.5:80
+1211 error network This is most likely not a problem with npm itself
+1211 error network and is related to network connectivity.
+1211 error network In most cases you are behind a proxy or have bad network settings.
+1211 error network
+1211 error network If you are behind a proxy, please make sure that the
+1211 error network 'proxy' config is set properly.  See: 'npm help config'
+1212 verbose exit [ 1, true ]

@@ -1,17 +1,13 @@
 
 import qwest from 'qwest';
-import { notification } from 'antd';
+import { Toast } from 'antd-mobile';
 import utils from './common.js';
 import Auth from '../components/authorize/Auth';
 import Cookies from 'js-cookie';
 import React from 'react';
 
 const showError = function (msg) {
-  notification.error({
-    message: '错误',
-    duration: 10,
-    description: msg,
-  });
+  Toast.info(msg);
 };
 
 const notice = {

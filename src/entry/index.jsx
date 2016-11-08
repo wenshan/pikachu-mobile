@@ -2,10 +2,9 @@ import 'antd-mobile/dist/antd-mobile.less';
 import ReactDOM from 'react-dom';
 import React from 'react';
 import Utils from '../utils/index';
-import { Button } from 'antd-mobile';
-
-const ajax = Utils.ajax,
-  login = Utils.common.login;
+import { NavBar, Icon, } from 'antd-mobile';
+import Home from '../modules/home/index';
+const ajax = Utils.ajax, login = Utils.common.login;
 
 // modules
 import Cookies from 'js-cookie';
@@ -59,49 +58,11 @@ const props = {
 const ButtonExample = React.createClass({
   render() {
     return (
-      <div style={{ margin: '0 8px' }}>
-
-        <div style={{ margin: '32px 0' }}>
-          <Button data-seed="logId">default 按钮</Button>
-          <div style={{ height: 8 }} />
-          <Button disabled>default disabled 按钮</Button>
-        </div>
-
-        <div style={{ margin: '32px 0' }}>
-          <Button type="primary" onClick={e => console.log(e)}>primary 按钮</Button>
-          <div style={{ height: 8 }} />
-          <Button type="primary" disabled>primary disabled 按钮</Button>
-        </div>
-
-        <div style={{ margin: '32px 0' }}>
-          <Button type="ghost" onClick={e => console.log(e)}>ghost 按钮</Button>
-          <div style={{ height: 8 }} />
-          <Button type="ghost" disabled>ghost disabled 按钮</Button>
-        </div>
-
-        <div style={{ margin: '32px 0' }}>
-          <Button type="warning">warning 按钮</Button>
-        </div>
-
-        <div style={{ margin: '32px 0' }}>
-          <Button loading>loading 按钮</Button>
-        </div>
-
-        <div style={{ margin: '32px 0' }}>
-          <Button activeStyle={false}>无点击反馈</Button>
-          <div style={{ height: 8 }} />
-          <Button activeStyle={{ backgroundColor: 'red' }}>自定义点击反馈 style</Button>
-        </div>
-
-        <div style={{ margin: '32px 0' }}>
-          <p className="demo-p">inline / small</p>
-          <div style={{ height: 8 }} />
-          <Button inline>default inline</Button>&nbsp;
-          <Button inline size="small">default inline small</Button>
-          <div style={{ height: 8 }} />
-          <Button type="primary" inline>primary inline</Button>&nbsp;
-          <Button type="primary" inline size="small">primary inline small</Button>
-        </div>
+      <div>
+        <div style={{ height: 8 }} />
+        <NavBar leftContent="返回" mode="light" onLeftClick={() => console.log('onLeftClick')}
+          rightContent={[<Icon key="0" type="user" />, <Icon key="1" type="search" />, <Icon key="2" type="plus" />]}
+        >NavBar</NavBar>
       </div>
     );
   },

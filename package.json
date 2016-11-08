@@ -5,15 +5,11 @@
   "entry": {
     "index": "./src/entry/index.jsx"
   },
-  "scripts": {
-    "dev": "dora --plugins \"proxy,webpack,livereload?enableJs=false&injectHost=127.0.0.1\"",
-    "build": "atool-build -o ./.build/${npm_package_family}/${npm_package_name/{npm_package_version}",
-    "lint": "eslint --ext .js,.jsx src",
-    "test": "atool-test"
-  },
   "dependencies": {
     "antd-mobile": "0.9.x",
     "babel-runtime": "6.x",
+    "js-cookie": "^2.1.3",
+    "qwest": "^4.4.5",
     "rc-form": "1.x",
     "react": "15.3.x",
     "react-dom": "15.3.x",
@@ -47,9 +43,15 @@
     "redbox-react": "^1.2.10",
     "webpack-add-module-exports": "0.0.2"
   },
+  "scripts": {
+    "dev": "dora --plugins \"proxy,webpack,webpack-hmr,browser-history?index=/index.html\"",
+    "build": "atool-build -o ./.build/${npm_package_family}/${npm_package_name/{npm_package_version}",
+    "lint": "eslint --ext .js,.jsx src",
+    "test": "atool-test"
+  },
   "repository": {
     "type": "git",
-    "url": "git@git.gooagoo.com:Pikachu/pikachu-mobile.git"
+    "url": "git@github.com:wenshan/pikachu-mobile.git"
   },
   "keywords": [
     "pikachu-mobile"

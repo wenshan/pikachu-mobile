@@ -1,14 +1,10 @@
 
 
-import { notification } from 'antd';
+import { Toast } from 'antd-mobile';
 
-const openNotificationWithIcon = function (type, title, content) {
+const openNotificationWithIcon = function (type, content) {
   return function () {
-    notification[type]({
-      message: title,
-      description: content,
-      duration: 5,
-    });
+    Toast[type](content);
   };
 };
 
